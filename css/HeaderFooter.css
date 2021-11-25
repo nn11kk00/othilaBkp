@@ -1,0 +1,95 @@
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+/*
+ font-family: 'Raleway', sans-serif;
+   
+ font-family: 'Rambla', sans-serif;
+*/
+
+
+.divTopWa i{
+  font-size: 2rem;
+  border-width: 5px;
+}
+.divTopWa .waTop{
+  color: green;
+}
+.divTopWa .arrowTop{
+  color: #f8af3b;
+}
+
+/* Header */
+
+header{
+  z-index: 999;
+  background-color: #1c203e;
+
+}
+
+ .TextLinkNav{
+  color: white;
+  font-size: 0.75em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+ }
+
+ .TextLinkNav:hover {
+  border-bottom: 2px solid #f8af3b;
+ }
+
+ .NavActivado{
+  border-bottom: 2px solid #f8af3b;
+ }
+
+ .NavBarO{
+  margin-right: 100px;
+ }
+
+/* btn conocenos*/
+
+ .btn{
+      padding: 3px 20px;
+    }
+    .btn-conocenos{
+        background-color: #1c203e;
+        color: white;
+    }
+
+
+/*body section*/
+
+
+ .h2-title{
+        font-family: 'Rambla', sans-serif;
+        font-weight: 700;
+        padding: 40px 0 0 60px;
+      }
+
+      .titulo{
+
+        font-weight: 700;
+        margin-top: 68px;
+        height: 100px;
+        background-color: #f8af3b;
+
+      }
+   
+/*Footer*/
+footer{
+  text-align: center;
+  height: 70px;
+  background-color: #1c203e;
+  color:white;
+}
+footer div{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}

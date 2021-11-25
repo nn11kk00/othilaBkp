@@ -1,0 +1,927 @@
+<!doctype html>
+<html lang="es">
+  <head>
+     <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Diseñamos muebles de calidad, brindando asesoramiento integral, relevamiento del ambiente, co-creamos el ambiente soñado, entregamos e instalamos el producto y brindamos servicio post-venta"/>
+     <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Diseñamos muebles de calidad, brindando asesoramiento integral, relevamiento del ambiente, co-creamos el ambiente soñado, entregamos e instalamos el producto y brindamos servicio post-venta"/>
+    <meta name="keywords" content="SIMPLICIDAD, DISEÑO, CREACIÓN, INNOVACIÓN, CALIDAD"/>
+<meta name="keywords" content="SIMPLICIDAD, DISEÑO, CREACIÓN, INNOVACIÓN, CALIDAD, mubles, rack, escritorios, estanteria, othila, mesa living, mesa ratona, ratona, mesa, living, hogar"/>
+    <meta http-equiv="cache-control" content="no-cache"/>
+
+    
+    
+    <!-- Cdn del bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Css Header & Footer -->
+    <link rel="stylesheet" href="css/HeaderFooter.css" >
+    <!-- Cdn de los icons BS 5-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <title>Template</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Rambla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- Pone todo lo personalizado que hagas aca abajo, de aca para arriba tenemos todo lo mismo (Despues vemos los METAS) -->
+    <style>
+      
+     
+
+      .gridGalery{
+
+        margin-top: 5em;
+        columns:5 320px;
+      }
+
+      .gridGalery img{
+
+        border:5px solid white;
+        max-width: 105%;
+      }
+
+      
+/* EFECTO HOVER IMG */
+
+ .gridGalery:hover{
+
+   background: #1c203e;
+   overflow: hidden;  
+
+}
+
+
+.gridGalery img:hover{
+  border:5px solid white;
+  object-fit: cover;
+  opacity: 0.1;
+}
+
+
+
+.gridGalery a:hover span {
+    display: block;
+
+}
+
+.gridGalery a {
+
+  position: relative
+}
+
+.gridGalery a span {
+  text-align: center;
+  color: white;
+  display: none;
+  pointer-events:none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+}
+
+/* MODAL IMG */
+.modalmask {
+    position: fixed;
+    font-family: Arial, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalmask:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalbox{
+    width: 400px;
+    position: relative;
+    padding: 5px 20px 13px 20px;
+    background: #fff;
+    border-radius:3px;
+    -webkit-transition: all 500ms ease-in;
+    -moz-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+     
+}
+
+.movedown {
+    margin: 0 auto;
+}
+
+.modalmask:target .movedown{       
+    margin:10% auto;
+}
+
+
+    </style>
+    
+
+  </head>
+  <body>
+<div id="headerTop"></div><!-- Header Start-->  
+ 
+
+
+
+  <div id="modal1" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(1).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+
+  <div id="modal2" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(2).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal3" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(3).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal4" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(4).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal5" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(5).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal6" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(6).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal7" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(7).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal8" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(8).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal9" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(9).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal10" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(10).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal11" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(11).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal12" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(12).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal13" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(13).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal14" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(14).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal15" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(15).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal16" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(16).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal17" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(17).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal18" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(18).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal19" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(19).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal20" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(20).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal21" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(21).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal22" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(22).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal23" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(23).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal24" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(24).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal25" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(25).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal26" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(26).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal27" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(27).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal28" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(28).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal29" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(29).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal30" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(30).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal31" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(31).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal32" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(32).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal33" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(33).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal34" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(34).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal35" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(35).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal36" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(36).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal37" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(37).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal38" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(38).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal39" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(39).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal40" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(40).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal41" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(41).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal42" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(42).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal43" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(43).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal44" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(44).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal45" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(45).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal46" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(46).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal47" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(47).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal48" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(48).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal49" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(49).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal50" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(50).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal51" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(51).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+  <div id="modal52" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(52).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+  <div id="modal53" class="modalmask">
+    <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close"><i class="bi bi-arrows-angle-contract"></i></a>
+       <img src="images/img(53).jpg" width="100%" alt="">
+    </div>
+</div>
+
+
+
+
+
+
+<header class=" position-fixed container-fluid p-0">
+  <nav class="navbar navbar-expand-sm navbar-dark">
+    <div class="container-fluid">
+      <h1><img class="ms-4" src="images/logo.png" width="40" alt="Logo othila"></h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav ms-auto NavBarO ">
+          <li class="nav-item me-5">
+            <a class="nav-link " href="index.html"><span class="TextLinkNav ">INICIO</span></a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link " href="nosotros.html"><span class="TextLinkNav">NOSOTROS</span></a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link " href="galeria.html"><span class="TextLinkNav NavActivado">GALERIA</span></a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link " href="productos.html"><span class="TextLinkNav">PRODUCTOS</span></a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link " href="contacto.html"><span class="TextLinkNav">CONTACTO</span></a>
+          </li>
+        </ul>
+        <form class="d-flex ms-2 me-4">
+
+                <a href="https://www.instagram.com/othila.muebles.de.diseno/"><i class="bi-instagram me-1" style="font-size: 1.5rem; color: #f8af3b;"></i><a>
+
+               <a href="https://www.facebook.com/OthilaDiseno/"><i class="bi-facebook"   style="font-size: 1.5rem; color: #f8af3b;" ></i><a> 
+
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- Header End-->
+
+
+<!-- cuerpo start-->
+<section class="container-fluid">
+    <div class="row divGaleria">
+      <div class="col-12 titulo"> 
+        <h2 class="h2-title" >GALERÍA</h2>
+      </div>
+</div>
+<div class="container">
+    <div class="gridGalery">
+      <a href="#modal1"><img src="images/img(1).jpg" alt="">   </img> 
+        <span>Rack</span>
+      </a>
+
+
+      <a href="#modal2"><img src="images/img(2).jpg" alt="">   </img> 
+        <span>Estanteria</span>
+      </a>
+
+      <a href="#modal3"><img src="images/img(3).jpg" alt="">   </img> 
+        <span>Rack</span>
+      </a>
+
+      <a href="#modal4"><img src="images/img(4).jpg" alt="">   </img> 
+        <span>Rack</span>
+      </a>
+
+      <a href="#modal5"><img src="images/img(5).jpg" alt="">   </img> 
+        <span>Mesa Living</span>
+      </a>
+
+      <a href="#modal6"><img src="images/img(6).jpg" alt="">   </img> 
+        <span>Estanteria</span>
+      </a>
+
+      <a href="#modal7"><img src="images/img(7).jpg" alt="">   </img> 
+        <span>Macetero</span>
+      </a>
+
+      <a href="#modal8"><img src="images/img(8).jpg" alt="">   </img> 
+        <span>Mesa ratona</span>
+      </a>
+
+      <a href="#modal9"><img src="images/img(9).jpg" alt="">   </img> 
+        <span>Rack</span>
+      </a>
+
+      <a href="#modal10"><img src="images/img(10).jpg" alt="">    </img> 
+        <span>Estanteria</span>
+      </a>
+
+      <a href="#modal11"><img src="images/img(11).jpg" alt="">    </img> 
+        <span>Estanteria</span>
+      </a>
+
+      <a href="#modal12"><img src="images/img(12).jpg" alt="">    </img> 
+        <span>Mesa Living</span>
+      </a>
+
+      <a href="#modal13"><img src="images/img(13).jpg" alt="">    </img> 
+        <span>Mesa Living</span>
+      </a>
+
+      <a href="#modal14"><img src="images/img(14).jpg" alt="">    </img> 
+        <span>Mesa Living</span>
+      </a>
+
+      <a href="#modal15"><img src="images/img(15).jpg" alt="">    </img> 
+        <span>Estanteria</span>
+      </a>
+
+      <a href="#modal16"><img src="images/img(16).jpg" alt="">    </img> 
+        <span>Mesa Ratona</span>
+      </a>
+
+      <a href="#modal17"><img src="images/img(17).jpg" alt="">    </img> 
+        <span>Mesa Ratona</span>
+      </a>
+
+      <a href="#modal18"><img src="images/img(18).jpg" alt="">    </img> 
+        <span>Mesa Ratona</span>
+      </a>
+
+      <a href="#modal19"><img src="images/img(19).jpg" alt="">    </img> 
+        <span>Rack</span>
+      </a>
+
+      <a href="#modal20"><img src="images/img(20).jpg" alt="">    </img> 
+        <span>Mesa Living</span>
+      </a>
+
+      <a href="#modal21"><img src="images/img(21).jpg" alt="">    </img> 
+        <span>Escritorio</span>
+      </a>
+
+      <a href="#modal22"><img src="images/img(22).jpg" alt="">    </img> 
+        <span>Estanteria</span>
+      </a>
+
+      <a href="#modal23"><img src="images/img(23).jpg" alt="">    </img> 
+        <span>Mesa Ratona</span>
+      </a>
+
+      <a href="#modal24"><img src="images/img(24).jpg" alt="">    </img> 
+        <span>Mesa Living</span>
+      </a>
+
+      <a href="#modal25"><img src="images/img(25).jpg" alt="">    </img> 
+        <span>Mesa Living</span>
+      </a>
+
+      <a href="#modal26"><img src="images/img(26).jpg" alt="">    </img> 
+        <span>Rack</span>
+      </a>
+
+      <a href="#modal27"><img src="images/img(27).jpg" alt="">    </img> 
+        <span>Estanteria</span>
+      </a>
+
+      <a href="#modal28"><img src="images/img(28).jpg" alt="">    </img> 
+        <span>Escritorio</span>
+      </a>
+
+      <a href="#modal29"><img src="images/img(29).jpg" alt="">    </img> 
+        <span>Estanteria</span>
+      </a>
+
+      <a href="#modal30"><img src="images/img(30).jpg" alt="">    </img> 
+        <span>Escritorio</span>
+      </a>
+
+      <a href="#modal31"><img src="images/img(31).jpg" alt="">    </img> 
+        <span>Escritorio</span>
+      </a>
+
+      <a href="#modal32"><img src="images/img(32).jpg" alt="">    </img> 
+        <span>Mesa Living</span>
+      </a>
+
+      <a href="#modal33"><img src="images/img(33).jpg" alt="">    </img> 
+        <span>Mesa Ratona</span>
+      </a>
+
+      <a href="#modal34"><img src="images/img(34).jpg" alt="">    </img> 
+        <span>Rack</span>
+      </a>
+
+      <a href="#modal35"><img src="images/img(35).jpg" alt="">    </img> 
+        <span>Mesa Ratona</span>
+      </a>
+
+      <a href="#modal36"><img src="images/img(36).jpg" alt="">    </img> 
+        <span>Rack</span>
+      </a>
+
+      <a href="#modal37"><img src="images/img(37).jpg" alt="">    </img> 
+        <span>Escritorio</span>
+      </a>
+
+      <a href="#modal38"><img src="images/img(38).jpg" alt="">    </img> 
+        <span>Escritorio</span>
+      </a>
+
+      <a href="#modal39"><img src="images/img(39).jpg" alt="">    </img> 
+        <span>Mesa Living</span>
+      </a>
+
+      <a href="#modal40"><img src="images/img(40).jpg" alt="">    </img> 
+        <span>Mesa Living</span>
+      </a>
+
+      <a href="#modal41"><img src="images/img(41).jpg" alt="">    </img> 
+        <span>Mesa Ratona</span>
+      </a>
+
+      <a href="#modal42"><img src="images/img(42).jpg" alt="">    </img> 
+        <span>Mesa Ratona</span>
+      </a>
+
+      <a href="#modal43"><img src="images/img(43).jpg" alt="">    </img> 
+        <span>Rack</span>
+      </a>
+
+      <a href="#modal44"><img src="images/img(44).jpg" alt="">    </img> 
+        <span>Rack</span>
+      </a>
+
+      <a href="#modal45"><img src="images/img(45).jpg" alt="">    </img> 
+        <span>Rack</span>
+      </a>
+
+      <a href="#modal46"><img src="images/img(46).jpg" alt="">    </img> 
+        <span>Mesa Living</span>
+      </a>
+
+      <a href="#modal47"><img src="images/img(47).jpg" alt="">    </img> 
+        <span>Rack</span>
+      </a>
+
+      <a href="#modal48"><img src="images/img(48).jpg" alt="">    </img> 
+        <span>Mesa Ratona</span>
+      </a>
+
+      <a href="#modal49"><img src="images/img(49).jpg" alt="">    </img> 
+        <span>Estanteria</span>
+      </a>
+
+      <a href="#modal50"><img src="images/img(50).jpg" alt="">    </img> 
+        <span>Mesa Ratona</span>
+      </a>
+
+      <a href="#modal51"><img src="images/img(51).jpg" alt="">    </img> 
+        <span>Rack</span>
+      </a>
+
+      <a href="#modal52"><img src="images/img(52).jpg" alt="">    </img> 
+        <span>Rack</span>
+      </a>
+
+      <a href="#modal53"><img src="images/img(53).jpg" alt="">    </img> 
+        <span>Estanteria</span>
+      </a>
+
+
+
+
+    </div>
+</div>
+</section>
+<!-- cuerpo End-->
+
+
+
+
+
+
+<div class=" p-3 position-fixed bottom-0 end-0 divTopWa" >
+
+  <a href="https://api.whatsapp.com/send?phone=542612536016&text=Hola!%20Estoy%20interesado%2Fa%20en%20presupuestar%20un%20producto"><i class="waTop bi bi-whatsapp"></i></a>
+  <br>
+  <a href="#headerTop"><i class="arrowTop bi bi-arrow-up-square"></i></a>
+  
+</div>
+
+
+
+
+
+
+<!-- footer start-->
+<footer>
+  <div><p class="text-center">Copyright &copy; 2021 Othila &reg; <a onclick="myFunction()" class="text-warning" style="text-decoration: none;">Diseño</a> | Todos los derechos reservados    
+  </p></div>
+</footer>
+<!-- footer End-->
+<script>
+
+function myFunction() {
+  alert("Creado por: \nDesarrollo web · Agus: \n·Linkedin.com/in/agustina-firpo \n\nDesarrollo web · Nico: \n·Linkedin.com/in/nicocv/ \n\nDiseño · Mile: \n·Linkedin.com/in/milenadancervich/");
+}</script>
+
+    <!-- Js Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
